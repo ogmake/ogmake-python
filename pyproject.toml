@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ogmake"
+version = "0.1.0"
+description = "Thin Python SDK for the ogmake OG image API: signed and public image URLs, stored renders, typed errors."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "ogmake", email = "support@ogmake.com" }]
+keywords = ["ogmake", "open-graph", "og-image"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://ogmake.com"
+Repository = "https://github.com/IgorBaranov/ogmake-python"
+Support = "mailto:support@ogmake.com"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["ogmake"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
