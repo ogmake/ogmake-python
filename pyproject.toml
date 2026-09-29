@@ -15,7 +15,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://ogmake.com"
-Repository = "https://github.com/IgorBaranov/ogmake-python"
+Repository = "https://github.com/ogmake/ogmake-python"
 Support = "mailto:support@ogmake.com"
 
 [project.optional-dependencies]
