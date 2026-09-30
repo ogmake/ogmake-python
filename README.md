@@ -5,7 +5,7 @@ Thin Python SDK for the [ogmake](https://ogmake.com) OG image API. Standard libr
 ## Install
 
 ```sh
-pip install ogmake   # not yet published; for now: pip install ./integrations/sdk-python
+pip install git+https://github.com/ogmake/ogmake-python
 ```
 
 ## Examples
